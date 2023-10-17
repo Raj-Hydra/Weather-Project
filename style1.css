@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the entire container */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,151,191,1) 71%, rgba(0,212,255,1) 100%);
+   padding: 200px;
+    min-height: 100vh;
+    color: #cbcfd0;
+}
+
+/* Style the phone container */
+.phone-container {
+    width: 320px; /* Width of a typical mobile device */
+    background-color: #d5e6eb;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    display: flex; /* Make the container flex */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+/* Style the header */
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Style the form container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Expand form to container width */
+}
+
+label {
+    font-size: 16px;
+    color: #e9e5e5;
+    margin-bottom: 10px;
+}
+
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #52687f;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Style the weather information container */
+#weatherInfo {
+    background-color: #ededed;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(64, 95, 103, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #1c303c;
+}
+
+/* You can add more styles as needed to achieve your desired mobile-like appearance. */
+
+/* You can add more styles as needed to achieve your desired mobile-like appearance. */
+
+
+
